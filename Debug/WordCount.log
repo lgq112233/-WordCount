@@ -1,0 +1,7 @@
+﻿  源.cpp
+  WordCount.vcxproj -> C:\Users\李贵强\source\repos\WordCount\Debug\WordCount.exe
+  WordCount.vcxproj -> C:\Users\李贵强\source\repos\WordCount\Debug\WordCount.pdb (Partial PDB)
+c:\users\李贵强\source\repos\wordcount\wordcount\源.cpp(33): warning C28183: “fp”可以是“0”，并且是“fp=fopen(ss, "r")”中找到的值的副本: 这不符合函数“fclose”的规范。查看第 19 行以找出可能会发生此情况的前一位置
+c:\users\李贵强\source\repos\wordcount\wordcount\源.cpp(19): warning C6387: “fp”可能是“0”: 这不符合函数“fgetc”的规范。
+c:\users\李贵强\source\repos\wordcount\wordcount\源.cpp(51): warning C28183: “fp”可以是“0”，并且是“fp=fopen(ss, "r")”中找到的值的副本: 这不符合函数“fclose”的规范。查看第 44 行以找出可能会发生此情况的前一位置
+c:\users\李贵强\source\repos\wordcount\wordcount\源.cpp(44): warning C6387: “fp”可能是“0”: 这不符合函数“fgetc”的规范。

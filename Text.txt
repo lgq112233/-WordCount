@@ -1,0 +1,26 @@
+printf("单词行：%d.\n",danci );
+	printf("空行：%d.\n", konghang);
+	printf("注释行 ：%d.\n", zushihang);//li
+	fclose(fp);
+}
+int main(int argc, char *argv[])
+{
+	if ((strcmp(argv[1], "-c") == 0) && (strcmp(argv[2], "text.txt") == 0))
+	{
+		zifushu();
+	}
+
+	if ((strcmp(argv[1], "-w") == 0) && (strcmp(argv[2], "text.txt") == 0)) {
+
+		dancishu();
+	}
+	if ((strcmp(argv[1], "-l") == 0) && (strcmp(argv[2], "text.txt") == 0))
+	{
+		hangshu();
+	}
+	if ((strcmp(argv[1], "-a") == 0) && (strcmp(argv[2], "text.txt") == 0))
+	{
+		zuihou();
+	}
+	return 0;
+}
